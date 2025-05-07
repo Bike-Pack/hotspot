@@ -43,12 +43,6 @@ body {
     height: 80px; /* Deine gewünschte Standardgröße */
 }
 
-.main-header.scrolled .logo-img {
-    height: 60px; /* Nur wenn du beim Scrollen eine kleinere Größe willst */
-}
-
-/* Stelle sicher, dass du keinen anderen CSS-Code hast, der die Höhe von .logo-img überschreibt */
-
 nav ul {
     list-style: none;
     padding: 0;
