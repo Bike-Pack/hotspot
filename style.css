@@ -1,31 +1,31 @@
 /* Grundlegende Stile */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Moderne, gut lesbare Schriftart */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333; /* Dunkelgrau für gute Lesbarkeit */
-    background-color: #f9f9f9; /* Helles Hintergrundgrau */
-    -webkit-font-smoothing: antialiased; /* Glattere Schriftwiedergabe für WebKit-Browser */
-    -moz-osx-font-smoothing: grayscale; /* Glattere Schriftwiedergabe für Firefox */
+    color: #333;
+    background-color: #f9f9f9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px; /* Mehr vertikaler Padding für Weißraum */
+    padding: 40px 20px;
 }
 
 /* Header */
 .main-header {
-    background-color: #fff; /* Weißer Hintergrund für den Header */
+    background-color: #fff;
     padding: 20px 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtiler Schatten */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease-in-out;
 }
 
@@ -36,10 +36,15 @@ body {
 }
 
 .logo-big {
-    font-size: 2.5em; /* Etwas kleiner als zuvor, aber immer noch prominent */
-    color: #000000; /* Moderne Akzentfarbe (Blau) */
-    margin: 0;
-    font-weight: bold;
+    display: none; /* Ausblenden der Textüberschrift */
+}
+
+.logo-img {
+    height: 40px; /* Beispielhöhe, nach Bedarf anpassen */
+}
+
+.main-header.scrolled .logo-img {
+    height: 30px; /* Kleinere Höhe im gescrollten Zustand, optional */
 }
 
 nav ul {
@@ -56,7 +61,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: #555;
-    font-weight: 500; /* Etwas weniger fett als bold */
+    font-weight: 500;
     transition: color 0.3s ease;
 }
 
@@ -75,7 +80,7 @@ nav a:hover {
 
 /* Main-Bereich mit Padding, um den fixierten Header zu berücksichtigen */
 main {
-    padding-top: 80px; /* Angepasst an die Höhe des Headers im nicht-gescrollten Zustand */
+    padding-top: 80px; /* Angepasst an die Höhe des Headers */
 }
 
 /* Hero-Bereich */
@@ -83,9 +88,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 20px; /* Mehr vertikaler Padding */
-    background-color: #f0f8ff; /* Sehr helles Blau/Grau als Hintergrund */
-    border-radius: 8px; /* Abgerundete Ecken für Modernität */
+    padding: 100px 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
     margin-bottom: 40px;
 }
 
@@ -115,8 +120,8 @@ main {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px; /* Passend zum Hero-Bereich */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Leichter Schatten für Tiefe */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .button {
@@ -323,63 +328,4 @@ footer nav a:hover {
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        margin-top: 15px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav li {
-        margin: 10px 0;
-    }
-
-    #hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-text {
-        padding-right: 0;
-        margin-bottom: 30px;
-    }
-
-    .vorteile-liste {
-        grid-template-columns: 1fr;
-    }
-
-    footer .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer nav ul {
-        margin-top: 15px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer nav li {
-        margin: 10px 0;
-    }
-}
-/* ... dein bisheriges CSS ... */
-
-.logo-img {
-    height: 40px; /* Beispielhöhe, nach Bedarf anpassen */
-}
-
-.main-header.scrolled .logo-img {
-    height: 30px; /* Kleinere Höhe im gescrollten Zustand, optional */
-}
-
-.logo-big {
-    /* Entferne alle Stile, da das Logo jetzt ein <img> ist */
-    /* font-size: 2.5em;
-    color: #000000;
-    margin: 0;
-    font-weight: bold; */
-    display: none; /* Versteckt die ursprüngliche Textüberschrift, falls sie noch vorhanden ist */
-}
+        align-items
