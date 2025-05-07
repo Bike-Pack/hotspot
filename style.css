@@ -40,11 +40,11 @@ body {
 }
 
 .logo-img {
-    height: 40px; /* Beispielhöhe, nach Bedarf anpassen */
+    height: 80px; /* Erhöhte Höhe des Logos */
 }
 
 .main-header.scrolled .logo-img {
-    height: 30px; /* Kleinere Höhe im gescrollten Zustand, optional */
+    height: 60px; /* Angepasste, etwas kleinere Höhe im gescrollten Zustand */
 }
 
 nav ul {
@@ -214,118 +214,4 @@ main {
 
 /* Standorte */
 #standorte {
-    padding: 80px 20px;
-    text-align: center;
-}
-
-#standorte h2 {
-    font-size: 2.4em;
-    color: #333;
-    margin-bottom: 30px;
-}
-
-#standorte ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-#standorte li {
-    font-size: 1.1em;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-#standorte a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#standorte a:hover {
-    text-decoration: underline;
-}
-
-/* Kontakt */
-#kontakt {
-    padding: 80px 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    margin-bottom: 40px;
-}
-
-#kontakt h2 {
-    font-size: 2.4em;
-    color: #333;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1em;
-    box-sizing: border-box;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #f9f9f9;
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 0.9em;
-}
-
-footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-footer nav li {
-    margin-left: 20px;
-}
-
-footer nav a {
-    color: #f9f9f9;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-footer nav a:hover {
-    color: #007bff;
-}
-
-/* Responsive Anpassungen (optional, aber wichtig für Modernität) */
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        align-items
+    padding: 80px
