@@ -44,7 +44,7 @@ body {
 }
 
 .main-header.scrolled .logo-img {
-    height: 60px; /* Angepasste, etwas kleinere Höhe im gescrollten Zustand */
+    height: 30px; /* Angepasste, etwas kleinere Höhe im gescrollten Zustand */
 }
 
 nav ul {
