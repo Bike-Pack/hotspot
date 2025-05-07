@@ -42,7 +42,8 @@ body {
 .logo-img {
     height: 30px; /* Erhöhte Höhe des Logos */
 }
-
+.main-header.scrolled .logo-img {
+    height: 30px; /* Angepasste, etwas kleinere Höhe im gescrollten Zustand */
 }
 
 nav ul {
