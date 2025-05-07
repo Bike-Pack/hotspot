@@ -40,11 +40,11 @@ body {
 }
 
 .logo-img {
-    height: 80px; /* Erhöhte Höhe des Logos */
+    height: 1000px; /* Erhöhte Höhe des Logos */
 }
 
 .main-header.scrolled .logo-img {
-    height: 30px; /* Angepasste, etwas kleinere Höhe im gescrollten Zustand */
+    height: 10px; /* Angepasste, etwas kleinere Höhe im gescrollten Zustand */
 }
 
 nav ul {
