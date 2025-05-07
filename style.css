@@ -365,3 +365,21 @@ footer nav a:hover {
         margin: 10px 0;
     }
 }
+/* ... dein bisheriges CSS ... */
+
+.logo-img {
+    height: 40px; /* Beispielhöhe, nach Bedarf anpassen */
+}
+
+.main-header.scrolled .logo-img {
+    height: 30px; /* Kleinere Höhe im gescrollten Zustand, optional */
+}
+
+.logo-big {
+    /* Entferne alle Stile, da das Logo jetzt ein <img> ist */
+    /* font-size: 2.5em;
+    color: #000000;
+    margin: 0;
+    font-weight: bold; */
+    display: none; /* Versteckt die ursprüngliche Textüberschrift, falls sie noch vorhanden ist */
+}
